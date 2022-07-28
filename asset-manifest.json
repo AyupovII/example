@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/example/static/css/main.96f083ad.css",
-    "main.js": "/example/static/js/main.99940bbb.js",
+    "main.css": "/example/static/css/main.c83d2112.css",
+    "main.js": "/example/static/js/main.c06fb4bb.js",
     "static/js/787.759e47f1.chunk.js": "/example/static/js/787.759e47f1.chunk.js",
     "static/media/large_photo.png": "/example/static/media/large_photo.f5c41a6e563a9e0cd8c7.png",
     "static/media/reebok.png": "/example/static/media/reebok.9001b0a4d4057d33baf0.png",
@@ -9,12 +9,12 @@
     "static/media/fashionStore.png": "/example/static/media/fashionStore.53c414ad73c7f196060b.png",
     "static/media/star.svg": "/example/static/media/star.7ef400d5d3eb62912713.svg",
     "index.html": "/example/index.html",
-    "main.96f083ad.css.map": "/example/static/css/main.96f083ad.css.map",
-    "main.99940bbb.js.map": "/example/static/js/main.99940bbb.js.map",
+    "main.c83d2112.css.map": "/example/static/css/main.c83d2112.css.map",
+    "main.c06fb4bb.js.map": "/example/static/js/main.c06fb4bb.js.map",
     "787.759e47f1.chunk.js.map": "/example/static/js/787.759e47f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96f083ad.css",
-    "static/js/main.99940bbb.js"
+    "static/css/main.c83d2112.css",
+    "static/js/main.c06fb4bb.js"
   ]
 }
