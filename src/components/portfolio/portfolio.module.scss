@@ -17,8 +17,8 @@ display: flex;
 flex-direction: column;
 row-gap: 4.4rem;
 }
-.site__image{
-
+.site__image img{
+  width: 100%;
 }
 .site__link{
   font-size: 1.8rem;

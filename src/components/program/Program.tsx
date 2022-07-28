@@ -1,5 +1,4 @@
 import React from "react";
-import star from "../../assets/svg/star.svg";
 import styles from "./program.module.scss";
 
 export const Program: React.FC<{ image: any; name: string, num: number }> = ({ image, name, num = 0 }) => {

@@ -31,6 +31,16 @@
   color: red;
 }
 .photo{
-  height: 38.7rem;
+  // height: 38.7rem;
   margin-bottom: 10.4rem;
+}
+.photo img{
+  width: 100%;
+}
+.photo__small{
+  display: none;
+}
+@media (max-width:900px) { 
+  .photo__large { display: none } 
+  .photo__small { display: block}
 }

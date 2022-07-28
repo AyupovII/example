@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./home.module.scss";
 import { Content } from "../content/Content";
 import photo from "../../assets/images/large_photo.png"
+import smallPhoto from "../../assets/images/small_photo.png"
+
 
 export const Home: React.FC<{ id: string }> = ({id}) => {
   return (
@@ -20,7 +22,9 @@ export const Home: React.FC<{ id: string }> = ({id}) => {
         </div>
       </div>
       <div className={styles.photo}>
-        <img src={photo} alt="Фото"/>
+        <img src={photo} alt="Фото" className={styles.photo__large}/>
+        <img src={smallPhoto} alt="Фото" className={styles.photo__small}/>
+
       </div>
     </Content>
 
