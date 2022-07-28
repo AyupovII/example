@@ -1,0 +1,36 @@
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3.9em 0em 3em 0em;
+}
+.info__name{
+  display: flex;
+  flex-direction: column;
+  font-size: 4.7rem;
+  font-weight: 600;
+}
+.info__more{
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.info__toogle-lang{
+  font-size: 1.6rem;
+  writing-mode: tb-rl;
+  transform:rotate(180deg);
+  cursor: pointer;
+  font-family: 'Gilroy-Bold';
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+}
+.info__toogle-lang span:hover{
+  color: red;
+}
+.photo{
+  height: 38.7rem;
+  background: url("../../assets/images/large_photo.png");
+}
