@@ -6,3 +6,10 @@
 .info{
   font-size: 1.8rem;
 }
+.skills-list{
+  display: flex;
+  justify-content: center;
+  column-gap: 9rem;
+  flex-wrap: wrap;
+  margin: 8.3rem 0rem 11rem 0rem;
+}

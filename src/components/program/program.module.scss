@@ -1,17 +1,18 @@
 .program{
   font-size: 1.4rem;
-  width: 16.6rem;
+  width: min-content;
   height: 20.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0rem 0rem 8rem 0rem;
 
 }
 .program__item{
   width: min-content;
 }
 .program__icon{
-  width: 8.8rem;
+  width: min-content;
   height: 8rem;
   padding-bottom: 2.5rem;
 }

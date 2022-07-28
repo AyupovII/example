@@ -1,0 +1,39 @@
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts__title{
+  font-size: 3.4rem;
+  font-weight: 600;
+  padding: 11.2rem 0rem 4.7rem 0rem;
+}
+.contacts__text{
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.contacts__btn{
+  font-size: 1.8rem;
+  border-radius: 22px;
+  background: black;
+  color: white;
+  width: max-content;
+  padding: 1rem 3rem 1rem 3rem;
+  cursor: pointer;
+}
+.contacts__social{
+  display: flex;
+  flex-direction: row;
+  column-gap: 6rem;
+  margin-top: 8rem;
+  cursor: pointer;
+}
+.contacts__notification{
+  display: flex;
+  flex-direction: column ;
+  color: #828282;
+  font-size: 1.4rem;
+  margin-top: 4.5rem;
+}

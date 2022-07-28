@@ -1,0 +1,27 @@
+.content{
+  background-color: #F6F6F6;
+}
+.portfolio__title{
+  font-size: 3.4rem;
+  font-weight: 600;
+  padding: 11.2rem 0rem 4.7rem 0rem;
+}
+.portfolio__sites{
+display: flex;
+flex-direction: column;
+row-gap: 9.9rem;
+padding-bottom: 9.6rem;
+}
+.site{
+display: flex;
+flex-direction: column;
+row-gap: 4.4rem;
+}
+.site__image{
+
+}
+.site__link{
+  font-size: 1.8rem;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
