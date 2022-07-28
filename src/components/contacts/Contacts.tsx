@@ -1,10 +1,10 @@
 import React from "react";
 import { Content } from "../content/Content";
 import styles from "./contacts.module.scss";
-import inPng from "../../assets/svg/in.png";
-import instPng from "../../assets/svg/inst.png";
-import bePng from "../../assets/svg/be.png";
-import surfacePng from "../../assets/svg/surface.png";
+import linkedInPng from "../../assets/svg/in.png";
+import instagramPng from "../../assets/svg/inst.png";
+import behancePng from "../../assets/svg/be.png";
+import dribblePng from "../../assets/svg/surface.png";
 
 export const Contacts: React.FC<{ id: string }> = ({ id }) => {
   return (
@@ -21,10 +21,10 @@ export const Contacts: React.FC<{ id: string }> = ({ id }) => {
           Send message
         </div>
         <div className={styles.contacts__social}>
-          <img src={inPng} alt="in" />
-          <img src={instPng} alt="inst" />
-          <img src={bePng} alt="be" />
-          <img src={surfacePng} alt="surface" />
+          <img src={linkedInPng} alt="LinkedIn" />
+          <img src={instagramPng} alt="Instagram" />
+          <img src={behancePng} alt="Behance" />
+          <img src={dribblePng} alt="Dribble" />
         </div>
         <div className={styles.contacts__notification}>
           <span>Like me on</span>
