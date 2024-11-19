@@ -5,7 +5,7 @@ import photo from "../../assets/images/large_photo.png"
 import smallPhoto from "../../assets/images/small_photo.png"
 
 
-export const Home: React.FC<{ id: string }> = ({id}) => {
+export const Home: React.FC<{ id: string }> = ({ id }) => {
   return (
     <Content id={id}>
       <div className={styles.info}>
@@ -18,12 +18,12 @@ export const Home: React.FC<{ id: string }> = ({id}) => {
           <span>24 years old, Minsk</span>
         </div>
         <div className={styles["info__toogle-lang"]}>
-          <span>RU</span> | <span>ENG</span>
+          <span>RU</span>&nbsp;/&nbsp;<span>ENG </span>
         </div>
       </div>
       <div className={styles.photo}>
-        <img src={photo} alt="Фото" className={styles.photo__large}/>
-        <img src={smallPhoto} alt="Фото" className={styles.photo__small}/>
+        <img src={photo} alt="Фото" className={styles.photo__large} />
+        <img src={smallPhoto} alt="Фото" className={styles.photo__small} />
 
       </div>
     </Content>

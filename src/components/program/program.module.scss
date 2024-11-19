@@ -1,4 +1,4 @@
-.program{
+.program {
   font-size: 1.4rem;
   width: min-content;
   height: 20.6rem;
@@ -8,30 +8,44 @@
   margin: 0rem 0rem 8rem 0rem;
 
 }
-.program__item{
+
+.program__item {
   width: min-content;
 }
-.program__icon{
+
+.program__icon {
   width: min-content;
   height: 8rem;
   padding-bottom: 2.5rem;
 }
-.program__name{
+
+.program__name {
   color: #828282;
   padding-bottom: 4rem;
 }
-.active-star{
-  width: 2.5rem;
-  height: 2.5rem;
-  background-color: black;
-  mask: url("../../assets/svg/star.svg") no-repeat center;
-}
-.star{
+
+.star {
   width: 2.5rem;
   height: 2.5rem;
   background-color: grey;
   mask: url("../../assets/svg/star.svg") no-repeat center;
+
+  &-active {
+    background-color: black;
+  }
+
+  &:hover {
+    &:nth-of-type(n) {
+      background-color: gold;
+    }
+
+    cursor: pointer;
+  }
 }
-.program__stars{
+.star:nth-of-type(4):hover .star:nth-of-type(-n+4):not(:nth-of-type(4)) {
+  background-color: red;
+}
+
+.program__stars {
   display: flex;
 }

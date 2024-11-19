@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./program.module.scss";
 
 export const Program: React.FC<{ image: any; name: string, num: number }> = ({ image, name, num = 0 }) => {
   const fiveStar =
     Array(5).fill(null).map((el, index) => {
-      if (num >= index+1) {
-        return <div className={styles["active-star"]} />
+      if (num >= index + 1) {
+        return <div key={index} className={styles.star + " " + styles["star-active"]} />
       }
       else
-        return <div className={styles.star} />
+        return <div key={index} className={styles.star} />
     })
   console.log(fiveStar);
   return (

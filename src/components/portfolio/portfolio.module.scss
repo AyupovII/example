@@ -19,6 +19,12 @@ row-gap: 4.4rem;
 }
 .site__image img{
   width: 100%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    scale: 105%;
+  }
 }
 .site__link{
   font-size: 1.8rem;
